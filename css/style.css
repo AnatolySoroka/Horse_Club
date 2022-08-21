@@ -163,3 +163,64 @@ body {
     background: rgb(243, 230, 134);
     background: linear-gradient(180deg, rgba(243, 230, 134, 1) 0%, rgba(255, 184, 2, 1) 100%);
 }
+
+
+/* About section */
+
+.about__title {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #363434;
+    margin-bottom: 70px;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-img {
+    margin-left: -160px;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.about__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 80px;
+}
+
+.about__item-numb {
+    color: var(--green);
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 160%;
+}
+
+.anout__item-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: #0B0B0B;
+}
+
+.about__text {
+    font-size: 15px;
+    line-height: 28px;
+    color: #7E7E7E;
+}
