@@ -9,6 +9,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 15px;
 }
 
 .container {
@@ -51,6 +52,7 @@ body {
     font-weight: 400;
     transition: all .3s ease;
     border-bottom: 1px solid inherit;
+    color: var(--black);
 }
 
 .menu__list-link:hover {
@@ -89,4 +91,75 @@ body {
     font-size: 13px;
     line-height: 15px;
     color: #7D808A;
+}
+
+.header__content {
+    padding: 88px 0 450px;
+}
+
+.header__offer {
+    max-width: 613px;
+}
+
+.header__title {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 60.99px;
+    color: #000;
+}
+
+.header__text {
+    position: relative;
+    margin: 40px 0 46px;
+    padding-left: 42px;
+    max-width: 520px;
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33.6px;
+    color: #646464;
+}
+
+.header__text span {
+    font-weight: 700;
+}
+
+.header__text::after {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 1px;
+    background-color: #8f8f8f;
+    left: 0;
+    top: 16px;
+}
+
+.header__btn {
+    cursor: pointer;
+    background: rgb(255, 248, 190);
+    background: linear-gradient(180deg, rgba(255, 248, 190, 1) 0%, rgba(255, 200, 3, 1) 100%);
+    padding: 21px 75px;
+    border-radius: 5px;
+    color: #6A5300;
+    border: none;
+    -webkit-box-shadow: 0px 8px 0px 0px rgba(200, 156, 0, 0.56);
+    -moz-box-shadow: 0px 8px 0px 0px rgba(200, 156, 0, 0.56);
+    box-shadow: 0px 8px 0px 0px rgba(200, 156, 0, 0.56);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    display: inline-block;
+}
+
+.header__btn:hover {
+    background: rgb(243, 230, 134);
+    background: linear-gradient(180deg, rgba(243, 230, 134, 1) 0%, rgba(255, 184, 2, 1) 100%);
 }
